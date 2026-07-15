@@ -1,0 +1,25 @@
+.wishlist-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e5e7eb;
+  background: white;
+  color: #374151;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.wishlist-btn:hover {
+  border-color: #ef4444;
+  color: #ef4444;
+  transform: translateY(-2px);
+}
+
+.wishlist-btn.active {
+  background: #ef4444;
+  color: white;
+  border-color: #ef4444;
+}

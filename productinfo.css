@@ -1,0 +1,62 @@
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+}
+
+.brand{
+  color:#2563eb;
+  font-size:18px;
+  font-weight:600;
+}
+
+.product-info h1{
+  font-size:36px;
+  margin:0;
+}
+
+.rating{
+  font-size:18px;
+  color:#555;
+}
+
+.price{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.new-price{
+  color:#2563eb;
+  font-size:32px;
+  font-weight:bold;
+}
+
+.old-price{
+  color:#999;
+  text-decoration:line-through;
+  font-size:20px;
+}
+
+.description{
+  color:#666;
+  line-height:1.8;
+  font-size:16px;
+}
+.product-page {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 50px;
+  max-width: 1300px;
+  margin: 40px auto;
+  padding: 20px;
+  align-items: start;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-self: start;
+}

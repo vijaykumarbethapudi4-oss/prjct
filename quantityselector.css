@@ -1,0 +1,38 @@
+.quantity-selector {
+  margin-top: 30px;
+}
+
+.quantity-selector h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.quantity-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.quantity-box button {
+  width: 45px;
+  height: 45px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.quantity-box button:hover {
+  transform: scale(1.08);
+  background: #1d4ed8;
+}
+
+.quantity-box span {
+  font-size: 22px;
+  font-weight: bold;
+  min-width: 30px;
+  text-align: center;
+}
